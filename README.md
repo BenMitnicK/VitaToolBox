@@ -46,6 +46,15 @@ bg_selecttheme.png 960X544
 
 The images of the square and triangle buttons must be at 72X72
 
+<p style='color:red'>Thanks to: #vitasdk channel
+           TheFloW for VitaShell
+           NeoLTK for PluginsManager
+           Joel16 for Vitaident
+           Razneck for Theme
+           Xerpi, xyz for their help in #vitasdk channel 
+           My Beta tester Fusortia, BlackBrain and Chronoss from LogicSunrise
+           & of course Team Molecule! :)</p>
+
 Some ScreenShots
 
 <img height="340" width="600" src="http://www.bmk.hamtek-solutions.com/images/articles/vitatoolbox/1.jpg" />
