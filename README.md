@@ -48,7 +48,7 @@ The images of the square and triangle buttons must be at 72X72
 
 <b>Thanks to:</b> <br>
 
-           ```diff
+           <font color="red">
            - #vitasdk channel<br>
            - TheFloW for VitaShell<br>
            - NeoLTK for PluginsManager<br>
@@ -57,7 +57,7 @@ The images of the square and triangle buttons must be at 72X72
            - Xerpi, xyz for their help in #vitasdk channel <br>
            - My Beta tester Fusortia, BlackBrain and Chronoss from LogicSunrise<br>
            - & of course Team Molecule! :)
-           ```
+           </font>
 
 Some ScreenShots
 
