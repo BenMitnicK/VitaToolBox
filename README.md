@@ -46,4 +46,4 @@ bg_selecttheme.png 960X544
 
 The images of the square and triangle buttons must be at 72X72
 
-http://www.bmk.hamtek-solutions.com/images/articles/vitatoolbox/1.jpg
+[img]http://www.bmk.hamtek-solutions.com/images/articles/vitatoolbox/1.jpg[/img]
