@@ -47,6 +47,7 @@ bg_selecttheme.png 960X544
 The images of the square and triangle buttons must be at 72X72
 
 <b>Thanks to:</b> <br>
+
            ```diff
            - #vitasdk channel<br>
            - TheFloW for VitaShell<br>
