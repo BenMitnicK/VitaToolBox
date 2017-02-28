@@ -46,13 +46,13 @@ bg_selecttheme.png 960X544
 
 The images of the square and triangle buttons must be at 72X72
 
-<p style='color:red'>Thanks to: #vitasdk channel
-           TheFloW for VitaShell
-           NeoLTK for PluginsManager
-           Joel16 for Vitaident
-           Razneck for Theme
-           Xerpi, xyz for their help in #vitasdk channel 
-           My Beta tester Fusortia, BlackBrain and Chronoss from LogicSunrise
+<p style='color:red'>Thanks to: #vitasdk channel<br>
+           TheFloW for VitaShell<br>
+           NeoLTK for PluginsManager<br>
+           Joel16 for Vitaident<br>
+           Razneck for Theme<br>
+           Xerpi, xyz for their help in #vitasdk channel <br>
+           My Beta tester Fusortia, BlackBrain and Chronoss from LogicSunrise<br>
            & of course Team Molecule! :)</p>
 
 Some ScreenShots
