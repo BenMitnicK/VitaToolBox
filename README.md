@@ -43,12 +43,12 @@ VitaToolBox works independently of VitaShell and you will always need this one f
 The images no_preview.png and preview.png / Preview.png / preview.jpg / Preview.jpg must be FullScreen 960x544
 
 bg_selecttheme.png 960X544
-
+<font color="red">test</font>
 The images of the square and triangle buttons must be at 72X72
 
 <b>Thanks to:</b> <br>
 
-           <font color="red">
+           
            - #vitasdk channel<br>
            - TheFloW for VitaShell<br>
            - NeoLTK for PluginsManager<br>
@@ -57,7 +57,7 @@ The images of the square and triangle buttons must be at 72X72
            - Xerpi, xyz for their help in #vitasdk channel <br>
            - My Beta tester Fusortia, BlackBrain and Chronoss from LogicSunrise<br>
            - & of course Team Molecule! :)
-           </font>
+           
 
 Some ScreenShots
 
