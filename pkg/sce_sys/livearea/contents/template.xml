@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<livearea style='a5' format-ver='01.03' content-rev='1'>
+	<livearea-background>
+		<image>bg0.png</image>
+	</livearea-background>
+	 
+	<gate>
+		<startup-image>startup.png</startup-image>
+	</gate>
+	
+  <frame id="frame4">
+    <liveitem>
+      <image>item_2.png</image>
+      <target>http://www.bmk.hamtek-solutions.com/index.php/29-psvita/39-vitatoolbox-1-21</target>
+    </liveitem>
+  </frame>
+  <frame id="frame5" >
+    <liveitem>
+      <image>item_3.png</image>
+      <target>http://bmk.hamtek-solutions.com</target>
+    </liveitem>
+  </frame>
+  <frame id="frame6">
+    <liveitem>
+      <image>item_4.png</image>
+      <target>http://bmk.hamtek-solutions.com</target>
+    </liveitem>
+  </frame>
+  <frame id="frame7">
+    <liveitem>
+      <image>item_5.png</image>
+      <target>http://www.bmk.hamtek-solutions.com/index.php/29-psvita/22-at9-at3-converter</target>
+    </liveitem>
+  </frame>
+</livearea>

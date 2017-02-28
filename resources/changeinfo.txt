@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeinfo>
+  <changes app_ver="01.00">
+    <![CDATA[ 
+- Initial release.<br>
+- Added the pic0 to the launch of the application.<br>
+- Added background image random "20 max" :).<br>
+- Added language selection in options.<br>
+- Added of the selection of themes in the options (activate in the next version).<br>
+- Added DataBaseMenu (right joystick => Left to activate the menu).<br>
+- Added PluginsManager (Right joystick => Top to activate the menu) * The panel has been removed.<br>
+- Added automatic plugin organization Enable/Disable.<br>
+- Added the language of the different menu and options in the language file.<br>
+- Added color options for different menus.<br>
+- Added credit (activate with triangle in the HOME Directory).<br>
+    ]]>
+  </changes>
+  <changes app_ver="01.10">
+    <![CDATA[
+- Theme manager activated.<br>
+- ToolBox reactivate LTRIGGER+SELECT.<br>
+- Settings menu remapped to LTRIGGER+START.<br>
+- Move color.txt language.txt and setting.txt to .ini file.<br>
+- Add somes options to color.ini.<br>
+- Add noPreview image and square+triangle button image to theme folder.<br>
+- Code improved<br>
+    ]]>
+  </changes>
+   <changes app_ver="01.20">
+    <![CDATA[
+- Add Vitaident (right joystick => right to activate the menu).<br>
+- Add somes options to color.ini.<br>
+- Remove ToolBox.<br>
+    ]]>
+  </changes>
+   <changes app_ver="01.21">
+    <![CDATA[
+- Add launch select language in option.<br>
+- Bug fix for bg image.<br>
+- Add select and cancel in language file.<br>
+- Add param.ini for 100% Customizing Select Manager.<br>
+    ]]>
+  </changes>
+</changeinfo>
