@@ -55,6 +55,7 @@ The images of the square and triangle buttons must be at 72X72
            - Razneck for Theme
            - Xerpi, xyz for their help in #vitasdk channel
            - My Beta tester Fusortia, BlackBrain and Chronoss from LogicSunrise
+           - Ruben_Wolfe From Wololo.net
            - & of course Team Molecule! :)
 
 Some ScreenShots
