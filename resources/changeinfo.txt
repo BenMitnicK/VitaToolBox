@@ -41,4 +41,9 @@
 - Add param.ini for 100% Customizing Select Manager.<br>
     ]]>
   </changes>
+  <changes app_ver="01.22">
+    <![CDATA[
+- Add filter for your wallpapers.<br>
+    ]]>
+  </changes>
 </changeinfo>
