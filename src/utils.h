@@ -84,6 +84,8 @@ int randomNumber(int low, int high);
 int debugPrintf(char *text, ...);
 
 int launchAppByUriExit(char *titleid);
+int launchAppByExec(char *app);
+int DestroyAppByName(char *name);
 
 char *strcasestr(const char *haystack, const char *needle);
 
