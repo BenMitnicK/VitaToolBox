@@ -84,6 +84,8 @@ void startDrawing(vita2d_texture *bg) {
 		}
 	}
 	
+	if (filter_wallpaper_image)
+	vita2d_draw_texture(filter_wallpaper_image, 0.0f, 0.0f);
 }
 
 void drawingWallpaperUI2(vita2d_texture *bg,float x, float y, float tex_x, float tex_y, float tex_w, float tex_h, int change) {
@@ -134,6 +136,8 @@ void drawingWallpaperUI2(vita2d_texture *bg,float x, float y, float tex_x, float
 		}
 	}
 	
+	if (filter_wallpaper_image)
+	vita2d_draw_texture(filter_wallpaper_image, 0.0f, 0.0f);
 }
 
 void endDrawing() {
@@ -449,6 +453,20 @@ int launchAppByUriExit(char *titleid) {
 
 	sceKernelExitProcess(0);
 
+	return 0;
+}
+
+int DestroyAppByName(char *name){
+	
+	sceAppMgrDestroyAppByName(name);
+	
+	return 0;
+}
+
+int launchAppByExec(char *app){
+	char Patchapp[32];
+	sprintf(Patchapp, "app0:%s", app);
+	sceAppMgrLoadExec(Patchapp, NULL, NULL);
 	return 0;
 }
 
