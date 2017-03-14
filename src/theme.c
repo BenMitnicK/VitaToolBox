@@ -189,7 +189,7 @@ vita2d_texture *folder_icon = NULL, *file_icon = NULL, *archive_icon = NULL, *im
 
 vita2d_texture *wallpaper_image[MAX_WALLPAPERS];
 
-vita2d_texture *previous_wallpaper_image = NULL, *current_wallpaper_image = NULL;
+vita2d_texture *previous_wallpaper_image = NULL, *current_wallpaper_image = NULL, *filter_wallpaper_image = NULL;
 
 int wallpaper_count = 0;
 
@@ -235,6 +235,7 @@ ThemeImage theme_images[] = {
 	{ "pause.png", &_binary_resources_pause_png_start, &pause_image },
 	{ "fastforward.png", &_binary_resources_fastforward_png_start, &fastforward_image },
 	{ "fastrewind.png", &_binary_resources_fastrewind_png_start, &fastrewind_image },
+	{ "filter_wallpaper.png", NULL, &filter_wallpaper_image },
 	//{ "wallpaper.png", &_binary_resources_bg_wallpaper_png_start, &default_wallpaper },
 };
 
@@ -400,6 +401,12 @@ void loadTheme() {
 			// Font
 			snprintf(path, MAX_PATH_LENGTH, "ux0:VitaToolBox/theme/%s/font.pgf", theme_name);
  			font = vita2d_load_custom_pgf(path);
+			
+			// Filter Wallpapers
+			snprintf(path, MAX_PATH_LENGTH, "ux0:VitaToolBox/theme/%s/filter_wallpaper.png", theme_name);
+			vita2d_texture *filter_image = vita2d_load_PNG_file(path);
+			if (filter_image)
+				filter_wallpaper_image = filter_image;
 			
 			// Wallpapers
 			snprintf(path, MAX_PATH_LENGTH, "ux0:VitaToolBox/theme/%s/wallpaper.png", theme_name);
