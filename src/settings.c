@@ -395,7 +395,7 @@ void saveThemeName(){
 	}
 	ret = copyFiles("ux0:temp/settings.ini", "ux0:VitaToolBox/settings.ini");
 	ret = sceIoRemove("ux0:temp/settings.ini");  
-	sceKernelExitProcess(0);
+	ret = launchAppByExec("eboot.bin");
 }
 
 void loadPreview(){
@@ -800,7 +800,8 @@ void settingsMenuCtrl() {
 							*(option->value) = 0;
 					}else if (pressed_buttons & SCE_CTRL_ENTER){
 						closeSettingsMenu();
-						sceKernelExitProcess(0);
+						int ret;
+						ret = launchAppByExec("eboot.bin");
 					}
 					
 					break;
