@@ -150,7 +150,7 @@ extern vita2d_texture *folder_icon, *file_icon, *archive_icon, *image_icon, *aud
 					  *bg_photo_image, *bg_select_theme_image, *bg_audio_image, *cover_image, *play_image, *pause_image, *fastforward_image, *fastrewind_image;
 
 extern vita2d_texture *wallpaper_image[MAX_WALLPAPERS];
-extern vita2d_texture *previous_wallpaper_image, *current_wallpaper_image;
+extern vita2d_texture *previous_wallpaper_image, *current_wallpaper_image, *filter_wallpaper_image;
 
 extern int wallpaper_count;
 
