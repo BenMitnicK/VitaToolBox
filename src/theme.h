@@ -154,6 +154,8 @@ extern vita2d_texture *previous_wallpaper_image, *current_wallpaper_image, *filt
 
 extern int wallpaper_count;
 
+extern char *theme_name;
+
 void loadTheme();
 
 #endif
