@@ -197,6 +197,7 @@ float SIZE_FONT_CUSTOM;
 
 vita2d_pgf *font = NULL;
 char font_size_cache[256];
+char *theme_name = NULL;
 
 typedef struct {
 	char *name;
@@ -381,7 +382,6 @@ void loadTheme() {
 	if (use_custom_config) {
 		char path[MAX_PATH_LENGTH];
 		
-		char *theme_name = NULL;
 		ConfigEntry theme_entries[] = {
 			{ "THEME_NAME", CONFIG_TYPE_STRING, (void *)&theme_name },
 		};
