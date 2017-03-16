@@ -80,7 +80,7 @@ static int n_settings_entries = 0;
 
 static char *select_button_options[2];
 static char *select_lang_options[19];
-char select_theme_options[256] = "";
+static char select_theme_options[256] = "";
 
 static ConfigEntry settings_entries[] = {
 	{ "SELECT_BUTTON", CONFIG_TYPE_DECIMAL, (int *)&vitashell_config.select_button },
@@ -139,7 +139,6 @@ static float easeOut(float x0, float x1, float a) {
 void loadSettingsConfig() {
 	// Load settings config file
 	memset(&vitashell_config, 0, sizeof(VitaShellConfig));
-	loadThemeNames();
 	readConfig("ux0:VitaToolBox/settings.ini", settings_entries, sizeof(settings_entries) / sizeof(ConfigEntry));
 }
 
@@ -287,33 +286,6 @@ int check_for_theme_content(char *path) {
 	}
 
 	return 0;
-}
-
-void loadThemeNames(){
-  
-	char buffer[50];
-
-	FILE* f1 = fopen("ux0:VitaToolBox/settings.ini", "r");
-	
-	if (f1 == NULL){
-		if (f1 != NULL) fclose(f1);
-		
-	} else {
-		while (fscanf(f1, "%s", buffer) != EOF) { 
-		  
-			if( strstr(&buffer[0], "\"") ){
-
-			  const char *p1 = strstr(&buffer[0], "\"")+1;
-			  const char *p2 = strstr(p1, "\"");
-			  size_t len = p2-p1;
-			  char *res = (char*)malloc(sizeof(char)*(len+1));
-			  strncpy(res, p1, len);
-			  strcpy(select_theme_options, res);
-			  
-			}
-		}
-		fclose(f1);
-	}
 }
 
 int copyFiles(char *src_path, char *dst_path) {
@@ -547,6 +519,7 @@ void initSettingsMenu() {
 	select_lang_options[17] = language_container[portuguese_br];
 	select_lang_options[18] = language_container[turkish];
 	
+	strcpy(select_theme_options, theme_name);	
 }
 
 void openSettingsMenu() {
