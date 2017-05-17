@@ -69,7 +69,7 @@ Some ScreenShots
 
 <img height="340" width="600" src="http://www.bmk.hamtek-solutions.com/images/articles/vitatoolbox/1.jpg" />
 <br>
-<img height="340" width="600" src="http://www.bmk.hamtek-solutions.com/images/articles/vitatoolbox/2.jpg" />
+<img height="340" width="600" src="http://www.bmk.hamtek-solutions.com/images/articles/vitatoolbox/7.jpg" />
 <br>
 <img height="340" width="600" src="http://www.bmk.hamtek-solutions.com/images/articles/vitatoolbox/3.jpg" />
 <br>
